@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Presentation HoweWork - 4.Calculator</title>
+    <link href="styles/calculator.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="up">
+        </div>
+        <div id="down">
+            <div id="menu">
+                <span class="shortcut">V</span>iew &nbsp;&nbsp;&nbsp;
+                <span class="shortcut">E</span>dit &nbsp;&nbsp;&nbsp;
+                <span class="shortcut">H</span>elp &nbsp;&nbsp;&nbsp;
+            </div>
+
+            <div id="input_area_binary_wrap">
+                <div id="input_area">8854455</div>
+                <div id="binary">
+                    <ul>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>0000</li>
+                    </ul>
+		    <ul class="bin">
+                        <li>63&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li class="hidden">0000</li>
+                        <li class="hidden">0000</li>
+			<li class="hidden">0000</li>
+			<li>47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li class="hidden">0000</li>
+                        <li class="hidden">0000</li>
+			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32</li>
+                    </ul>
+                    <ul>
+                        <li>0000</li>
+                        <li>0000</li>
+                        <li>1000</li>
+                        <li>0111</li>
+                        <li>0001</li>
+                        <li>1011</li>
+                        <li>1011</li>
+                        <li>0111</li>
+                    </ul>
+                    <ul class="bin">
+                        <li>31&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li class="hidden">0000</li>
+                        <li class="hidden">0000</li>
+			<li class="hidden">0000</li>
+			<li>15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li class="hidden">0000</li>
+                        <li class="hidden">0000</li>
+			<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0</li>
+                    </ul>
+                </div>
+            </div>
+            <form>
+                <table>
+
+
+                    <tbody>
+                        <tr>
+                            <td rowspan="3" class="num_systems">
+                                <input type="radio" name="numSys" id="Hex" /><label for="Hex">&nbsp;Hex</label>
+                                <br />
+                                <input type="radio" name="numSys" id="Dec" checked="checked" /><label for="Dec">&nbsp;Dec</label>
+                                <br />
+                                <input type="radio" name="numSys" id="Oct" /><label for="Oct">&nbsp;Oct</label>
+                                <br />
+                                <input type="radio" name="numSys" id="Bin" /><label for="Bin">&nbsp;Bin</label>
+                                <br />
+                            </td>
+                            <td>
+                                <input type="button" class="button" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="Mod" /></td>
+                            <td>
+                                <input type="button" class="button" value="A" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button" value="MC" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button" value="MR" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button" value="MS" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button" value="M+" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button" value="M-" disabled="disabled" /></td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="(" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value=")" /></td>
+                            <td>
+                                <input type="button" class="button" value="B" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="&larr;" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="CE" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="C" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="&#177;" /></td>
+                            <td>
+                                <input type="button" class="button" value="&#8730;" disabled="disabled" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="RoL" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="RoR" /></td>
+                            <td>
+                                <input type="button" class="button" value="C" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="7" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="8" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="9" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="/" /></td>
+                            <td>
+                                <input type="button" class="button" value="%" disabled="disabled" /></td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3" class="num_systems">
+
+                                <input type="radio" name="mem" checked="checked" /><label>&nbsp;Qword</label>
+                                <br />
+                                <input type="radio" name="mem" /><label>&nbsp;Dword</label>
+                                <br />
+                                <input type="radio" name="mem" /><label>&nbsp;Word</label>
+                                <br />
+                                <input type="radio" name="mem" /><label>&nbsp;Byte</label>
+                                <br />
+
+                            </td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="Or" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="Xor" /></td>
+                            <td>
+                                <input type="button" class="button" value="D" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="4" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="5" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="6" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="*" /></td>
+                            <td>
+                                <input type="button" class="button" value="1/x" disabled="disabled" /></td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="Lsh" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="Rsh" /></td>
+                            <td>
+                                <input type="button" class="button" value="E" disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="1" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="2" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="3" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="-" /></td>
+                            <td rowspan="2">
+                                <input type="button" class="button button_gradient1" value="=" style="height: 61px" /></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="Not" /></td>
+                            <td>
+                                <input type="button" class="button button_gradient1" value="And" /></td>
+                            <td>
+                                <input type="button" class="button" value="F" disabled="disabled" /></td>
+                            <td colspan="2">
+                                <input type="button" class="button button_gradient1" value="0" style="width: 75px" /></td>
+                            <td>
+                                <input type="button" class="button" value="." disabled="disabled" /></td>
+                            <td>
+                                <input type="button" class="button" value="+" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+

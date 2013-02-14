@@ -1,0 +1,193 @@
+/*Clear Styles*/
+ul, li, button, input {
+    margin: 0;
+    padding: 0;
+}
+
+div#wrap {
+    width: 420px;
+    height: 385px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 7px 7px;
+    background-image: linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -o-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -moz-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -webkit-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -ms-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.22, rgb(218,228,241)), color-stop(0.05, rgb(237,244,252)) );
+}
+
+div#up {
+    position: relative;
+    left: 0;
+    top: 0;
+    background-image: url(../images/updiv.png);
+    height: 27px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+div#down {
+    position: relative;
+    left: 0;
+    background-image: url(../images/donwdiv.png);
+    background-repeat: repeat-x;
+    height: 358px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+div#menu {
+    text-align: left;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    font-weight: normal;
+    width: 404px;
+    height: 15px;
+    padding: 1px 0 1px 3px;
+    margin-left: 5px;
+    border: 1px solid #B5BDCC;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color: black;
+    background: -o-linear-gradient(#FEFEFF 0, #E6EAF5 34%, #D4DCED 35%, #E1E5F6 100%);
+    background: -moz-linear-gradient(#FEFEFF 0, #E6EAF5 34%, #D4DCED 35%, #E1E5F6 100%);
+    background: -webkit-linear-gradient(#FEFEFF 0, #E6EAF5 34%, #D4DCED 35%, #E1E5F6 100%);
+    background: linear-gradient(#FEFEFF 0, #E6EAF5 34%, #D4DCED 35%, #E1E5F6 100%);
+}
+
+div#input_area_binary_wrap {
+    position: relative;
+    width: 405px;
+    height: 120px;
+    margin-left: 5px;
+    padding: 1px;
+    border: 1px solid #B5BDCC;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom: none;
+    background-image: linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -o-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -moz-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -webkit-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -ms-linear-gradient(top, rgb(218,228,241) 22%, rgb(237,244,252) 05%);
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0.22, rgb(218,228,241)), color-stop(0.05, rgb(237,244,252)) );
+}
+
+div#input_area {
+    position: relative;
+    top: 7px;
+    width: 390px;
+    height: 43px;
+    line-height: 52px;
+    font-size: 22px;
+    font-family: Consolas, sans-serif;
+    text-align: right;
+    border: 1px solid #B5BDCC;
+    border-radius: 3px 3px;
+    padding: 1px;
+    margin-left: 5px;
+    background: -webkit-linear-gradient(#E6EFFB, #FFFFFF);
+    background: -moz-linear-gradient(#E6EFFB, #FFFFFF);
+    background: -o-linear-gradient(#E6EFFB, #FFFFFF);
+    background: linear-gradient(#E6EFFB, #FFFFFF);
+}
+
+div#binary {
+    position: relative;
+    top: 12px;
+    width: 390px;
+    height: 56px;
+    margin-left: 5px;
+    padding: 1px;
+    border: 1px solid #B5BDCC;
+    border-radius: 3px 3px;
+    background: #D9E4F1;
+}
+    div#binary ul {
+	width: 390px;
+	height: 14px;
+        display: inline;
+}
+    div#binary ul li {
+        font-family: Consolas, sans-serif;
+        font-size: 12px;
+        float: left;
+        margin: 0px 4px 0 4px;
+        list-style: none;
+        display: inline;
+        margin-left: 16px;
+	height:14px;
+    }
+
+div div table {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 12px;
+    position: relative;
+    border: 1px solid black;
+    border-top: none;
+    padding: 3px 5px 5px 5px;
+    width: 409px;
+    height: 203px;
+    top: 0;
+    margin-left: 5px;
+    background: #D9E4F1;
+}
+
+    div div table td {
+        padding: 2px;
+    }
+
+.shortcut {
+    text-decoration: underline;
+}
+
+form input {
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.button {
+    height: 27px;
+    width: 34px;
+    border: 1px solid #8797AA;
+    border-radius: 2px 2px;
+    background: #D9E4F1;
+}
+
+
+.button_gradient1 {
+    background: -o-linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+    background: -moz-linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+    background: -webkit-linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+    background: linear-gradient(#F0F6FB 0, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+}
+
+    .button_gradient1:hover {
+        background: -webkit-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        background: -moz-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        background: -o-linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        background: linear-gradient(#FEF5EB 0, #FCE3C6 49%, #FBD075 50%, #FCF8CA 100%);
+        border: 1px solid #F5D50F;
+    }
+
+.num_systems {
+    border: 1px solid #8797AA;
+    border-radius: 2px 2px;
+    padding-left: 10px;
+}
+
+    .num_systems > label {
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 11px;
+    }
+
+.bin li {
+    color: gray;
+}
+
+.hidden {
+    visibility: hidden;
+}
