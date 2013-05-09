@@ -1,0 +1,17 @@
+High quality code is important for programming languages. This
+is such a code, that is very well structured, easy to understand by
+other programmers and easy to maintain. High quality code satisfy a lot
+of requirements:
+
+1) Strong cohesion
+2) Loose coupling
+3) Good formating
+4) Very good naming of variables, classes, methods, properties, fields,
+   constants, ...
+5) Good documentation of code
+6) Corect behaviour of code
+7) Follow best practices of high quality code
+8) OOP code
+9) Easy to reuse
+10) Avoid redundant code
+11) Others
